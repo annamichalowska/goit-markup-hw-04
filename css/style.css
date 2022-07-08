@@ -94,7 +94,7 @@ body {
   color: var(--blue-color);
 }
 .header-address .icon {
-  fill: currentColor;
+  fill: red;
   margin-right: 10px;
 }
 .header-address .envelope {
