@@ -226,16 +226,20 @@ body {
 .team-block :nth-child(4) {
   margin-right: 0;
 }
-.clients {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 94px;
-}
 .clients-title {
   text-align: center;
   padding-bottom: 50px;
 }
-.clients .icon {
+.clients-icon {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  color: var(--blue-color);
+}
+.clients-icon .icon {
   fill: var(--client-icon);
   width: 170px;
   height: 92px;
