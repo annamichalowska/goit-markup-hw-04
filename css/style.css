@@ -107,7 +107,7 @@ body {
 }
 .front-item {
   /* background-color: var(--dark-grey-color); */
-  background: url("file:///C:/Users/VAIO/Documents/GO_IT/html_css/Module_4/goit-markup-hw-04/images/background.svg");
+  background: url(./images/background.jpg);
   /* background: rgba(47, 48, 58, 0.4); */
   color: var(--white-color);
   padding-bottom: 200px;
