@@ -15,6 +15,7 @@
   --alpha-very-dark-grey-color: rgba(0, 0, 0, 0.14);
   --alpha-less-black-color: rgba(0, 0, 0, 0.1);
   --alpha-less-grey-color: rgba(0, 0, 0, 0.08);
+  --client-icon: #afb1b8;
 }
 * {
   margin: 0;
@@ -82,7 +83,7 @@ body {
 }
 .header-address-description {
   display: flex;
-  margin-left: 50px;
+  margin-left: 30px;
   color: var(--light-gray-color);
   text-decoration: none;
   align-items: center;
@@ -95,7 +96,7 @@ body {
   color: var(--blue-color);
 }
 .header-address .icon {
-  fill: red;
+  fill: var(--light-gray-color);
   margin-right: 10px;
 }
 .header-address .envelope {
@@ -147,7 +148,7 @@ body {
   list-style-type: none;
 }
 .index-lorem-background {
-  width: 250px;
+  width: 270px;
   height: 120px;
   background-color: var(--almost-white-color);
 }
@@ -158,7 +159,6 @@ body {
   text-transform: uppercase;
   color: var(--graphite-color);
   padding-bottom: 10px;
-  margin-left: 30px;
   padding-top: 30px;
 }
 .index-lorem-title:first-child {
@@ -222,6 +222,11 @@ body {
 }
 .team-block :nth-child(4) {
   margin-right: 0;
+}
+.profession .icon {
+  fill: var(--client-icon);
+  width: 170px;
+  height: 92px;
 }
 .navigation-index {
   text-decoration: none;
