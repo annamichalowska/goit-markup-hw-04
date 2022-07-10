@@ -423,3 +423,7 @@ body {
 .footer-icon .icon:last-child {
   margin-right: 0;
 }
+.footer-icon .icon:hover,
+.footer-icon .icon:focus {
+  fill: var(--blue-color);
+}
