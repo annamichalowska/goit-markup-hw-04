@@ -151,6 +151,13 @@ body {
   width: 270px;
   height: 120px;
   background-color: var(--almost-white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-lorem-background .icon {
+  width: 70px;
+  height: 70px;
 }
 .index-lorem-title {
   display: block;
@@ -212,8 +219,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--light-gray-color);
-  padding-bottom: 30px;
   padding-top: 10px;
+  padding-bottom: 16px;
 }
 .team-block {
   background: var(--white-color);
@@ -224,6 +231,21 @@ body {
   text-align: center;
 }
 .team-block :nth-child(4) {
+  margin-right: 0;
+}
+.team-icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.team-icon .icon {
+  fill: var(--client-icon);
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.team-icon .icon:last-child {
   margin-right: 0;
 }
 .clients-title {
