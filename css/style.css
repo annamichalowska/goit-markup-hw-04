@@ -106,10 +106,9 @@ body {
   height: 36px;
 }
 .front-item {
-  /* background-color: var(--dark-grey-color); */
-  background-image: url(images/background.jpg);
-  background-repeat: no-repeat;
-  /* background: rgba(47, 48, 58, 0.4); */
+  background-color: var(--dark-grey-color);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background.jpg);
   color: var(--white-color);
   padding-bottom: 200px;
 }
