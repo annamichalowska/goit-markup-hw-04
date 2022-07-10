@@ -15,7 +15,7 @@
   --alpha-very-dark-grey-color: rgba(0, 0, 0, 0.14);
   --alpha-less-black-color: rgba(0, 0, 0, 0.1);
   --alpha-less-grey-color: rgba(0, 0, 0, 0.08);
-  --client-icon: #afb1b8;
+  --active-icon: #afb1b8;
 }
 * {
   margin: 0;
@@ -240,10 +240,14 @@ body {
   padding-bottom: 30px;
 }
 .team-icon .icon {
-  fill: var(--client-icon);
+  fill: var(--active-icon);
   width: 44px;
   height: 44px;
   margin-right: 10px;
+}
+.team-icon .icon:hover,
+.team-icon .icon:focus {
+  fill: var(--blue-color);
 }
 .team-icon .icon:last-child {
   margin-right: 0;
@@ -259,10 +263,10 @@ body {
 }
 .clients-icon:hover,
 .clients-icon:focus {
-  color: var(--blue-color);
+  fill: var(--blue-color);
 }
 .clients-icon .icon {
-  fill: var(--client-icon);
+  fill: var(--active-icon);
   width: 170px;
   height: 92px;
 }
@@ -356,6 +360,9 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-items-blocks {
+  display: flex;
+}
 .logo-second {
   font-size: 26px;
   font-family: Raleway;
@@ -390,4 +397,29 @@ body {
 .phone:focus,
 .phone:hover {
   color: var(--blue-color);
+}
+.footer-block-icons {
+  margin-left: 70px;
+  padding-top: 12px;
+}
+.footer-icons-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding-bottom: 20px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+.footer-icon .icon {
+  fill: var(--active-icon);
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.footer-icon .icon:last-child {
+  margin-right: 0;
 }
