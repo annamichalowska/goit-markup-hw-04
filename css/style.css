@@ -32,7 +32,9 @@ body {
 }
 .container {
   width: 1200px;
-  margin-left: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
 }
 .section {
   padding-top: 94px;
@@ -113,6 +115,8 @@ body {
     url(../images/background.jpg);
   color: var(--white-color);
   padding-bottom: 200px;
+  padding-top: 200px;
+  margin: auto;
 }
 .front-item-description {
   font-weight: 900;
@@ -122,9 +126,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 30px;
-  padding-top: 200px;
-  margin-left: 452px;
-  margin-right: 452px;
+  margin: auto;
+  width: 696px;
 }
 .front-service {
   color: var(--white-color);
@@ -136,9 +139,13 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  margin-left: 700px;
   text-decoration: none;
   cursor: pointer;
+}
+.front-item .container {
+  margin: auto;
+  display: block;
+  text-align: center;
 }
 .description-index {
   display: flex;
