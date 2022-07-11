@@ -243,13 +243,13 @@ body {
 }
 .team-icon {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+  width: 206px;
+  margin-left: 32px;
 }
 .team-icon-background {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -435,18 +435,13 @@ body {
 }
 .footer-icon {
   display: flex;
+  justify-content: space-between;
+  width: 206px;
+}
+.footer-icon-background {
+  width: 44px;
+  height: 44px;
+  display: flex;
   justify-content: center;
-}
-.footer-icon .icon {
-  fill: var(--active-icon);
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-.footer-icon .icon:last-child {
-  margin-right: 0;
-}
-.footer-icon .icon:hover,
-.footer-icon .icon:focus {
-  fill: var(--blue-color);
+  align-items: center;
 }
