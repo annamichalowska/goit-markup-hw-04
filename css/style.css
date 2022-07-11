@@ -219,6 +219,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--graphite-color);
+  padding-bottom: 30px;
 }
 .team-profession {
   font-size: 16px;
@@ -244,16 +245,22 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 30px;
 }
-.team-icon .icon {
+.team-icon-background {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-media {
   fill: var(--active-icon);
   width: 20px;
   height: 20px;
-  margin-right: 10px;
 }
-.team-icon .icon:hover,
-.team-icon .icon:focus {
+.icon-media:hover,
+.icon-media:focus {
   fill: var(--blue-color);
 }
 .team-icon .icon:last-child {
