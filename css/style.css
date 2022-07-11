@@ -98,13 +98,13 @@ body {
   color: var(--blue-color);
 }
 .header-address .icon {
-  fill: var(--light-gray-color);
+  fill: currentColor;
   margin-right: 10px;
 }
-.header-address .envelope {
+/* .header-address .envelope {
   width: 16px;
   height: 12px;
-}
+} */
 .header-address .smartphone {
   width: 10px;
   height: 36px;
