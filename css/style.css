@@ -1,13 +1,13 @@
 :root {
   --black-color: #000;
   --white-color: #fff;
-  --dark-white-color: #ececec;
-  --graphite-color: #212121;
+  --header-line-color: #ececec;
+  --strong-text-color: #212121;
   --blue-color: #2196f3;
-  --light-gray-color: #757575;
-  --almost-white-color: #f5f4fa;
-  --dark-grey-color: #2f303a;
-  --very-light-grey-color: #eeeeee;
+  --mail-phone-color: #757575;
+  --team-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --portfolio-border-block-color: #eeeeee;
   --alpha-grey-color: rgba(255, 255, 255, 0.6);
   --alpha-dark-grey-color: rgba(0, 0, 0, 0.15);
   --alpha-almost-black-color: rgba(0, 0, 0, 0.2);
@@ -48,7 +48,7 @@ body {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid var(--dark-white-color);
+  border-bottom: 1px solid var(--header-line-color);
 }
 .header-items {
   display: flex;
@@ -70,7 +70,7 @@ body {
 }
 .navigation-header-description {
   margin-left: 46px;
-  color: var(--graphite-color);
+  color: var(--strong-text-color);
   text-decoration: none;
 }
 .navigation-header-description:first-child {
@@ -87,7 +87,7 @@ body {
 .header-address-description {
   display: flex;
   margin-left: 30px;
-  color: var(--light-gray-color);
+  color: var(--mail-phone-color);
   text-decoration: none;
   align-items: center;
 }
@@ -111,7 +111,7 @@ body {
   height: 36px;
 }
 .front-item {
-  background-color: var(--dark-grey-color);
+  background-color: var(--footer-background-color);
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background.jpg);
   color: var(--white-color);
@@ -158,7 +158,7 @@ body {
 .index-lorem-background {
   width: 270px;
   height: 120px;
-  background-color: var(--almost-white-color);
+  background-color: var(--team-background-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +172,7 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--graphite-color);
+  color: var(--strong-tekst-color);
   padding-bottom: 10px;
   padding-top: 30px;
 }
@@ -180,7 +180,7 @@ body {
   margin-left: 0;
 }
 .index-lorem-description {
-  color: var(--light-gray-color);
+  color: var(--mail-phone-color);
   line-height: 1.71;
 }
 .index-lorem-margin {
@@ -198,7 +198,7 @@ body {
   justify-content: space-between;
 }
 .team {
-  background-color: var(--almost-white-color);
+  background-color: var(--team-background-color);
   padding-bottom: 94px;
   box-shadow: 0px 1px 3px var(--alpha-almost-grey-color),
     0px 1px 1px var(--alpha-very-dark-grey-color),
@@ -219,7 +219,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: var(--graphite-color);
+  color: var(--strong-text-color);
   padding-bottom: 30px;
 }
 .team-profession {
@@ -227,7 +227,7 @@ body {
   line-height: 1.1875;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--light-gray-color);
+  color: var(--mail-phone-color);
   padding-top: 10px;
   padding-bottom: 16px;
 }
@@ -308,7 +308,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--graphite-color);
+  color: var(--strong-text-color);
 }
 .navigation-portfolio {
   font-weight: 500;
@@ -321,7 +321,7 @@ body {
 }
 .navigation-portfolio-buttons {
   font-weight: bold;
-  background: var(--almost-white-color);
+  background: var(--team-background-color);
   border-style: none;
   padding: 6px 20px;
   line-height: 1.625;
@@ -334,7 +334,7 @@ body {
 }
 .navigation-portfolio-buttons a {
   text-decoration: none;
-  color: var(--graphite-color);
+  color: var(--strong-text-color);
 }
 .navigation-portfolio-buttons:focus,
 .navigation-portfolio-buttons:hover {
@@ -367,9 +367,9 @@ body {
 .portfolio-examples {
   list-style-type: none;
   padding: 20px 24px 20px 24px;
-  border-left: 1px solid var(--very-light-grey-color);
-  border-bottom: 1px solid var(--very-light-grey-color);
-  border-right: 1px solid var(--very-light-grey-color);
+  border-left: 1px solid var(--portfolio-border-block-color);
+  border-bottom: 1px solid var(--portfolio-border-block-color);
+  border-right: 1px solid var(--portfolio-border-block-color);
   margin-top: -4px;
 }
 .portfolio-examples-name {
@@ -377,18 +377,18 @@ body {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
-  color: var(--graphite-color);
+  color: var(--strong-text-color);
   line-height: 2;
 }
 .portfolio-examples-description {
   font-size: 16px;
   letter-spacing: 0.03em;
-  color: var(--light-gray-color);
+  color: var(--mail-phone-color);
   line-height: 1.875;
 }
 .footer-items {
   color: var(--white-color);
-  background-color: var(--dark-grey-color);
+  background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
