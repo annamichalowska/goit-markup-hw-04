@@ -16,6 +16,7 @@
   --alpha-less-black-color: rgba(0, 0, 0, 0.1);
   --alpha-less-grey-color: rgba(0, 0, 0, 0.08);
   --active-icon: #afb1b8;
+  --footer-background-icon: rgba(255, 255, 255, 0.1);
 }
 * {
   margin: 0;
@@ -253,6 +254,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+}
+.team-icon-background:hover,
+.team-icon-background:focus {
+  background-color: var(--blue-color);
 }
 .icon-media {
   fill: var(--active-icon);
@@ -261,7 +267,7 @@ body {
 }
 .icon-media:hover,
 .icon-media:focus {
-  fill: var(--blue-color);
+  fill: var(--white-color);
 }
 .team-icon .icon:last-child {
   margin-right: 0;
@@ -284,14 +290,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.clients-icon-background:hover,
+.clients-icon-background:focus {
+  border: 1px solid var(--blue-color);
+  /* color: #2196f3; */
+}
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--blue-color);
 }
 .clients-icon {
   fill: var(--active-icon);
-  width: 106px;
-  height: 60px;
 }
 .navigation-index {
   text-decoration: none;
@@ -438,10 +447,21 @@ body {
   justify-content: space-between;
   width: 206px;
 }
+.icon-media-footer {
+  fill: var(--white-color);
+  width: 20px;
+  height: 20px;
+}
+.footer-icon-background:hover,
+.footer-icon-background:focus {
+  background-color: var(--blue-color);
+}
 .footer-icon-background {
   width: 44px;
   height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: var(--footer-background-icon);
 }
