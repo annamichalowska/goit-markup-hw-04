@@ -291,14 +291,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-.clients-icon-background:hover,
-.clients-icon-background:focus {
-  border: 1px solid var(--blue-color);
-  /* color: #2196f3; */
+.clients-icon-background .clients-item .clients-icon:hover,
+.clients-icon-background .clients-item .clients-icon:focus {
+  /* border: 1px solid var(--blue-color); */
+  border-color: var(--blue-color);
+  color: var(--blue-color);
+  fill: #2196f3;
+}
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--blue-color);
+  color: var(--blue-color);
 }
 .clients-icon:hover,
 .clients-icon:focus {
-  fill: var(--blue-color);
+  fill: currentColor;
 }
 .clients-icon {
   fill: var(--active-icon);
@@ -457,6 +464,9 @@ body {
 .footer-icon-background:hover,
 .footer-icon-background:focus {
   background-color: var(--blue-color);
+}
+.footer-icon-link {
+  text-decoration: none;
 }
 .footer-icon-background {
   width: 44px;
