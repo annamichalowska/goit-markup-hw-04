@@ -260,15 +260,17 @@ body {
 .team-icon-background:hover,
 .team-icon-background:focus {
   background-color: var(--blue-color);
+  cursor: pointer;
 }
 .icon-media {
   fill: var(--active-icon);
   width: 20px;
   height: 20px;
 }
-.icon-media:hover,
-.icon-media:focus {
+.team-icon-background:hover .icon-media,
+.team-icon-background:focus .icon-media {
   fill: var(--white-color);
+  cursor: pointer;
 }
 .team-icon .icon:last-child {
   margin-right: 0;
@@ -291,21 +293,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-.clients-icon-background .clients-item .clients-icon:hover,
-.clients-icon-background .clients-item .clients-icon:focus {
-  /* border: 1px solid var(--blue-color); */
-  border-color: var(--blue-color);
-  color: var(--blue-color);
-  fill: #2196f3;
+.clients-icon-background:hover,
+.clients-icon-background:focus {
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
 }
-.clients-item:hover,
-.clients-item:focus {
-  border-color: var(--blue-color);
-  color: var(--blue-color);
-}
-.clients-icon:hover,
-.clients-icon:focus {
-  fill: currentColor;
+.clients-icon-background:hover .clients-icon,
+.clients-icon-background:focus .clients-icon {
+  fill: var(--blue-color);
+  cursor: pointer;
 }
 .clients-icon {
   fill: var(--active-icon);
@@ -464,6 +460,7 @@ body {
 .footer-icon-background:hover,
 .footer-icon-background:focus {
   background-color: var(--blue-color);
+  cursor: pointer;
 }
 .footer-icon-link {
   text-decoration: none;
